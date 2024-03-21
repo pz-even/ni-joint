@@ -9,7 +9,7 @@ This repo provides the code of [Neuromorphic Imaging with Joint Image Deblurring
   doi      =  {10.1109/TIP.2024.3374074},
 }
 ```
-<img src="./imgs/demo.png" width="960">
+![DEMO](./imgs/demo.png)
 
 Find more Neuromorphic Imaging achievements from our group: [HKU Imaging Systems Laboratory](https://www.eee.hku.hk/~elam/research/pub-uf.html).
 ## Implementation
@@ -47,3 +47,7 @@ Once done, up to 4 files are generated in the folder you specify by `configs.res
 2. `xxx_sharp.png`:        restored sharp image (only for `configs.case = -1` and `configs.case = 1`)
 3. `xxx_kernel.png`:       estimated blur kernel (only for `configs.case = -1` and `configs.case = 1`)
 4. `xxx_signals.mat`:      denoised events (only for `configs.case = -1` and `configs.case = 2`)
+
+## Dataset
+![DATA](./imgs/data.png)
+Our real neuromorphic dataset has multiple pairs of blurry images and noisy event streams recorded by a DAVIS346 camera on a rich range of scenarios. Download it from [here](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3008016_connect_hku_hk/ESJ-VEuUiu5MjInYNLTDGKUBXPnjPSJLDDe1Chn96Hw2Wg) with password `zhang2024joint`.

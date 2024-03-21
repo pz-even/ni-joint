@@ -29,7 +29,7 @@ configs.beta:             weight of the l_0 regularizer
 configs.sigma:            weight of the Gaussian regularizer
 configs.dvs_resolution:   DVS spatial resolution
 configs.weight:           weight of gradient supervision
-configs.N:                find neighbors (1) or not (0), corresponding to lines 14 and 15 of our algorithm.
+configs.N:                find neighbors (1) or not (0), corresponding to lines 14, 15 of our algorithm.
 configs.dx:               spatial threshold that specifies the square boundary of the neighbors to be searched
 configs.dt:               temporal threshold that specifies the boundary of the neighbors to be searched
 configs.case:             specify a use case (-1, 1, 2)
@@ -40,10 +40,10 @@ For convenience, we split our algorithm into 3 functions, which are controlled b
 3. `configs.case = 2` for event denoising only (if you have a sharp image and noisy events). The following configurations are disabled: `configs.alpha`, `configs.beta`, `configs.sigma`.
 
 ### Results
-Once done, up to 4 files are generated in the folder you specify by `configs.results` in `demo.m` (default: `results`), according to `configs.case`.
+Once done, up to 4 files are generated in the folder you specify by `configs.results` in `demo.m` (default: `results`):
 ```
 xxx_configs.mat:      record the configurations used
-xxx_sharp.png:        restored sharp image           (only for `configs.case = -1` and `configs.case = 1`)
-xxx_kernel.png:       estimated blur kernel          (only for `configs.case = -1` and `configs.case = 1`)
-xxx_signals.mat:      denoised events                (only for `configs.case = -1` and `configs.case = 2`)
+xxx_sharp.png:        restored sharp image   (only for `configs.case = -1` and `configs.case = 1`)
+xxx_kernel.png:       estimated blur kernel  (only for `configs.case = -1` and `configs.case = 1`)
+xxx_signals.mat:      denoised events        (only for `configs.case = -1` and `configs.case = 2`)
 ```

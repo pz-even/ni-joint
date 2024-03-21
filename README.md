@@ -50,4 +50,4 @@ Once done, up to 4 files are generated in the folder you specify by `configs.res
 
 ## Dataset
 ![DATA](./imgs/data.png)
-Our real neuromorphic dataset has multiple pairs of blurry images and noisy event streams recorded by a DAVIS346 camera on a rich range of scenarios. Download it from [here](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3008016_connect_hku_hk/ESJ-VEuUiu5MjInYNLTDGKUBXPnjPSJLDDe1Chn96Hw2Wg) with password `zhang2024joint`.
+Our real dataset has multiple pairs of blurry images and noisy event streams recorded by a DAVIS346 camera on a rich range of scenarios. Download it from [here](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3008016_connect_hku_hk/ESJ-VEuUiu5MjInYNLTDGKUBXPnjPSJLDDe1Chn96Hw2Wg) with password `zhang2024joint`.

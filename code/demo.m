@@ -1,25 +1,25 @@
 clc;
 clear;
 close all;
-addpath(genpath('ni-joint'));
+addpath(genpath('ni-joint-main'));
 %% settings
-configs.dir = 'ni-joint';
+configs.dir = 'ni-joint-main';
 configs.data = 'data';  
 configs.results = 'results';
-configs.blur = 'low_light_model.png';
-configs.evs = 'low_light_model3.mat';
+configs.blur = 'keyboard.png';
+configs.evs = 'keyboard.mat';
 %% for image deblurring
-configs.alpha = 0.1;
-configs.beta = 8e-3; 
-configs.sigma = 0.4; 
+configs.alpha = 0.2;
+configs.beta = 64e-3; 
+configs.sigma = 0.06; 
 %% for event denoising
 configs.dvs_resolution = [260 346];
-configs.weight = 0.16;
+configs.weight = 0.1;
 configs.N = 1;
 configs.dx = 1;
 configs.dt = 10000;
 %% run case
-configs.case = 1;
+configs.case = -1;
 %% input
 raw_evs = load(fullfile(configs.dir, configs.data, configs.evs)).events;
 blur = readraw(imread(fullfile(configs.dir, configs.data, configs.blur)), 1);

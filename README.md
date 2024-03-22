@@ -29,10 +29,10 @@ configs.data:             folder that stores input data
 configs.results:          folder that stores output results
 configs.blur:             input image file
 configs.evs:              input event file
+configs.dvs_resolution:   DVS spatial resolution
 configs.alpha:            weight of the event regularizer
 configs.beta:             weight of the l_0 regularizer
 configs.sigma:            weight of the Gaussian regularizer
-configs.dvs_resolution:   DVS spatial resolution
 configs.weight:           weight of gradient supervision
 configs.N:                find neighbors (1) or not (0)
 configs.dx:               spatial threshold to specify a square boundary of the neighbors
@@ -41,8 +41,8 @@ configs.case:             specify a use case (-1, 1, 2)
 ```
 For convenience, we split our algorithm into 3 functions, which are controlled by `configs.case`:
 1. `configs.case = -1` for experiencing joint image deblurring and event denoising.
-2. `configs.case = 1` for image deblurring only (if you have a blurry image and clean events). The following configurations are disabled (random value): `configs.dvs_resolution`, `configs.weight`, `configs.N`, `configs.dx`, `configs.dt`.
-3. `configs.case = 2` for event denoising only (if you have a sharp image and noisy events). The following configurations are disabled (random value): `configs.alpha`, `configs.beta`, `configs.sigma`.
+2. `configs.case = 1` for image deblurring only (if you have a blurry image and clean events). The following configurations are disabled (any value): `configs.weight`, `configs.N`, `configs.dx`, `configs.dt`.
+3. `configs.case = 2` for event denoising only (if you have a sharp image and noisy events). The following configurations are disabled (any value): `configs.alpha`, `configs.beta`, `configs.sigma`.
 
 ### Results
 Once done, up to 4 files are generated in the folder you specify by `configs.results` in `demo.m` (default: `results`):

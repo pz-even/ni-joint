@@ -8,12 +8,12 @@ configs.data = 'data';
 configs.results = 'results';
 configs.blur = 'keyboard.png';
 configs.evs = 'keyboard.mat';
+configs.dvs_resolution = [260 346];
 %% for image deblurring
 configs.alpha = 0.2;
 configs.beta = 64e-3; 
 configs.sigma = 0.06; 
 %% for event denoising
-configs.dvs_resolution = [260 346];
 configs.weight = 0.1;
 configs.N = 1;
 configs.dx = 1;

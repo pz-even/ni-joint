@@ -15,7 +15,7 @@ This repo provides the code of [Neuromorphic Imaging with Joint Image Deblurring
 ![DEMO](./imgs/demo.png)
 ![DEMO](./imgs/demo2.png)
 
-Find more Neuromorphic Imaging achievements from our group: [HKU Imaging Systems Laboratory](https://www.eee.hku.hk/~elam/research/pub-uf.html).
+More Neuromorphic Imaging projects in: [HKU Imaging Systems Laboratory](https://www.eee.hku.hk/~elam/research/pub-uf.html).
 ## Implementation
 Before you start, please glance at the (good and failed) sample files we upload in the folders `data` and `results`.
 ### Preparation

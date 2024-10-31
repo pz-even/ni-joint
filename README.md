@@ -1,7 +1,7 @@
 # Overview
 This repo provides the code of [Neuromorphic Imaging with Joint Image Deblurring and Event Denoising](https://doi.org/10.1109/TIP.2024.3374074).
 ```
-@article{zhang2024joint,
+@article{zhang2024tip,
   title    =  {Neuromorphic Imaging with Joint Image Deblurring and Event Denoising},
   author   =  {Pei Zhang and Haosen Liu and Zhou Ge and Chutian Wang and Edmund Y. Lam},
   journal  =  {IEEE Transactions on Image Processing},

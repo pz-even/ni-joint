@@ -15,12 +15,11 @@ This repo provides the code of [Neuromorphic Imaging with Joint Image Deblurring
 ![DEMO](./imgs/demo.png)
 ![DEMO](./imgs/demo2.png)
 
-More neuromorphic imaging projects in [HKU Imaging Systems Laboratory](https://www.eee.hku.hk/~elam/research/pub-uf.html).
 ## Implementation
-Before you start, please glance at the (good and failed) sample files we upload in the folders `data` and `results`.
+Before start, please glance at the (good and failed) sample files we upload in the folders `data` and `results`.
 ### Preparation
 1. Put your image file and its corresponding event data in the folder you specify by `configs.data` in `demo.m` (default: `data`).
-2. The event data must be in `.mat` and contain `t, x, y, p` entries.
+2. The event data must be in `.mat` and with `t, x, y, p` entries.
 
 ### Run
 Run `demo.m` with the following configurations:

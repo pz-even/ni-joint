@@ -16,7 +16,7 @@ This repo provides the code of [Neuromorphic Imaging with Joint Image Deblurring
 ![DEMO](./imgs/demo2.png)
 
 ## Implementation
-Before start, please glance at the (good and failed) sample files we upload in the folders `data` and `results`.
+Before start, please glance over the (good and failed) samples we upload in the folders `data` and `results`.
 ### Preparation
 1. Put your image file and its corresponding event data in the folder you specify by `configs.data` in `demo.m` (default: `data`).
 2. The event data must be in `.mat` and with `t, x, y, p` entries.
@@ -53,4 +53,4 @@ Once done, up to 4 files are generated in the folder you specify by `configs.res
 
 ## Dataset
 ![DATA](./imgs/data.png)
-Our real dataset has multiple pairs of blurry images and noisy event streams recorded by a DAVIS346 camera on a rich range of scenarios. Download it from [here](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3008016_connect_hku_hk/ESJ-VEuUiu5MjInYNLTDGKUBXPnjPSJLDDe1Chn96Hw2Wg) with password `zhang2024joint`.
+Our real dataset has multiple pairs of blurry images and noisy event streams recorded by a DAVIS346 camera on a rich range of scenarios. Download it from [here](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3008016_connect_hku_hk/ESJ-VEuUiu5MjInYNLTDGKUB-VCwEXMju4pYjf6Js8kC_Q?e=NdHBB8).

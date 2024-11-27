@@ -25,8 +25,8 @@ Before start, please glance over the (good and failed) samples we upload in the 
 Run `demo.m` with the following configurations:
 ```
 configs.dir:              your dir name
-configs.data:             folder that stores input data
-configs.results:          folder that stores output results
+configs.data:             folder to store input data
+configs.results:          folder to store output results
 configs.blur:             input image file
 configs.evs:              input event file
 configs.dvs_resolution:   DVS spatial resolution
@@ -53,4 +53,4 @@ Once done, up to 4 files are generated in the folder you specify by `configs.res
 
 ## Dataset
 ![DATA](./imgs/data.png)
-Our real dataset has multiple pairs of blurry images and noisy event streams recorded by a DAVIS346 camera on a rich range of scenarios. Download it from [here](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3008016_connect_hku_hk/ESJ-VEuUiu5MjInYNLTDGKUB-VCwEXMju4pYjf6Js8kC_Q?e=NdHBB8).
+Our real dataset has multiple pairs of blurry images and noisy event streams recorded by a DAVIS346 camera on a rich range of scenarios. Download it from [here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/u3008016_connect_hku_hk/EsSBnB98lzZIl5z4jGSlpSQB1tpHsmTdtbkkCbAx4aadhg).
